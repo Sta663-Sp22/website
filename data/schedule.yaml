@@ -1,0 +1,234 @@
+startdate: "2022-01-09"
+dateFormat: 'Mon, Jan 2'
+schedule:
+- week: 0
+  day: 5
+  lecture: "Welcome & Syllabus"
+  slides:
+  screencast: 
+  notes:
+
+- week: 1
+  day: 1
+  lecture: "<i>No lab sessions (MLK Day)</i>"
+
+- week: 1
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+- week: 1
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes:
+
+- week: 2
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes:
+  
+- week: 2
+  day: 5
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+- week: 3
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+- week: 3
+  day: 5
+  lecture: "TBD"
+  slides:
+  screencast: 
+  notes:
+  readings:
+  notes: 
+
+- week: 4
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes:
+
+- week: 4
+  day: 5
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+- week: 5
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+- week: 5
+  day: 5
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes:
+
+- week: 6
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+- week: 6
+  day: 5
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+
+- week: 7
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes:
+
+- week: 7
+  day: 5
+  lecture: "TBD"
+  screencast: 
+  slides:
+  readings:
+  notes: 
+
+- week: 8
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+- week: 8
+  day: 3
+  lecture: "TBD"
+
+- week: 9
+  day: 2
+  lecture: "<i>No lab sessions (Spring Break)</i>"
+
+- week: 9
+  day: 3
+  lecture: "<i>No lecture (Spring Break)</i>"
+
+- week: 9
+  day: 5
+  lecture: "<i>No lecture (Spring Break)</i>"
+
+
+- week: 10
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+  
+
+- week: 10
+  day: 5
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  
+
+- week: 11
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+- week: 11
+  day: 5
+  lecture: "TBD"
+  screencast: 
+  readings: ""
+  notes: 
+
+- week: 12
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+
+- week: 12
+  day: 5
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+  
+- week: 13
+  day: 3
+  lecture: "TBD"
+  screencast: 
+  slides:
+  readings:
+  notes: 
+
+- week: 13
+  day: 5
+  lecture: "TBD"
+  screencast: 
+  slides:
+  notes: 
+
+- week: 14
+  day: 3
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+  
+- week: 14
+  day: 5
+  lecture: "TBD"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+  
+
