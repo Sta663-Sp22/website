@@ -43,15 +43,15 @@ jobs:
       
       - name: Clone github.io page
         run: |
-          git clone "https://$API_TOKEN_GITHUB@github.com/sta323-sp22/sta323-sp22.github.io.git"
+          git clone "https://$API_TOKEN_GITHUB@github.com/sta663-sp22/sta663-sp22.github.io.git"
 
       - name: Sync changes
         run: |
-          rsync --recursive --delete --exclude=".*" docs/ sta323-sp22.github.io/
+          rsync --recursive --delete --exclude=".*" docs/ sta663-sp22.github.io/
 
       - name: Commit and push changes
         run: |
-          cd sta323-sp22.github.io/
+          cd sta663-sp22.github.io/
           #git status
           git add .
           git commit -m "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
