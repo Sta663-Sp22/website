@@ -1,6 +1,11 @@
 startdate: "2022-01-09"
 dateFormat: 'Mon, Jan 2'
 schedule:
+
+- week: 0
+  day: 3
+  lecture: "<i>No lab sessions (Monday Schedule)</i>"
+
 - week: 0
   day: 5
   lecture: "Welcome & Syllabus"
@@ -14,7 +19,7 @@ schedule:
 
 - week: 1
   day: 3
-  lecture: "TBD"
+  lecture: "Python Basics"
   slides:
   screencast: 
   readings:
@@ -22,7 +27,7 @@ schedule:
 
 - week: 1
   day: 3
-  lecture: "TBD"
+  lecture: "Python Basics"
   slides:
   screencast: 
   readings:
@@ -30,7 +35,7 @@ schedule:
 
 - week: 2
   day: 3
-  lecture: "TBD"
+  lecture: "Python data structures"
   slides:
   screencast: 
   readings:
@@ -38,7 +43,7 @@ schedule:
   
 - week: 2
   day: 5
-  lecture: "TBD"
+  lecture: "numpy"
   slides:
   screencast: 
   readings:
@@ -46,7 +51,7 @@ schedule:
 
 - week: 3
   day: 3
-  lecture: "TBD"
+  lecture: "numpy"
   slides:
   screencast: 
   readings:
@@ -54,7 +59,7 @@ schedule:
 
 - week: 3
   day: 5
-  lecture: "TBD"
+  lecture: "scipy"
   slides:
   screencast: 
   notes:
@@ -63,7 +68,7 @@ schedule:
 
 - week: 4
   day: 3
-  lecture: "TBD"
+  lecture: "pandas"
   slides:
   screencast: 
   readings:
@@ -71,7 +76,7 @@ schedule:
 
 - week: 4
   day: 5
-  lecture: "TBD"
+  lecture: "pandas"
   slides:
   screencast: 
   readings:
@@ -79,7 +84,7 @@ schedule:
 
 - week: 5
   day: 3
-  lecture: "TBD"
+  lecture: "Visualization"
   slides:
   screencast: 
   readings:
@@ -87,7 +92,7 @@ schedule:
 
 - week: 5
   day: 5
-  lecture: "TBD"
+  lecture: "Visualization"
   slides:
   screencast: 
   readings:
@@ -95,7 +100,7 @@ schedule:
 
 - week: 6
   day: 3
-  lecture: "TBD"
+  lecture: "Numerical optimization"
   slides:
   screencast: 
   readings:
@@ -103,7 +108,7 @@ schedule:
 
 - week: 6
   day: 5
-  lecture: "TBD"
+  lecture: "Numerical optimization"
   slides:
   screencast: 
   readings:
@@ -112,7 +117,7 @@ schedule:
 
 - week: 7
   day: 3
-  lecture: "TBD"
+  lecture: "sklearn"
   slides:
   screencast: 
   readings:
@@ -120,7 +125,7 @@ schedule:
 
 - week: 7
   day: 5
-  lecture: "TBD"
+  lecture: "sklearn"
   screencast: 
   slides:
   readings:
@@ -128,15 +133,15 @@ schedule:
 
 - week: 8
   day: 3
-  lecture: "TBD"
+  lecture: "sklearn"
   slides:
   screencast: 
   readings:
   notes: 
 
 - week: 8
-  day: 3
-  lecture: "TBD"
+  day: 5
+  lecture: "sklearn"
 
 - week: 9
   day: 2
@@ -153,7 +158,7 @@ schedule:
 
 - week: 10
   day: 3
-  lecture: "TBD"
+  lecture: "statsmodels"
   slides:
   screencast: 
   readings:
@@ -162,7 +167,7 @@ schedule:
 
 - week: 10
   day: 5
-  lecture: "TBD"
+  lecture: "Probabilistic programming"
   slides:
   screencast: 
   readings:
@@ -170,7 +175,7 @@ schedule:
 
 - week: 11
   day: 3
-  lecture: "TBD"
+  lecture: "Probabilistic programming"
   slides:
   screencast: 
   readings:
@@ -178,14 +183,14 @@ schedule:
 
 - week: 11
   day: 5
-  lecture: "TBD"
+  lecture: "Probabilistic programming"
   screencast: 
   readings: ""
   notes: 
 
 - week: 12
   day: 3
-  lecture: "TBD"
+  lecture: "pytorch"
   slides:
   screencast: 
   readings:
@@ -194,7 +199,7 @@ schedule:
 
 - week: 12
   day: 5
-  lecture: "TBD"
+  lecture: "pytorch"
   slides:
   screencast: 
   readings:
@@ -202,7 +207,7 @@ schedule:
   
 - week: 13
   day: 3
-  lecture: "TBD"
+  lecture: "pytorch"
   screencast: 
   slides:
   readings:
@@ -210,14 +215,14 @@ schedule:
 
 - week: 13
   day: 5
-  lecture: "TBD"
+  lecture: "pytorch"
   screencast: 
   slides:
   notes: 
 
 - week: 14
   day: 3
-  lecture: "TBD"
+  lecture: "Docker"
   slides:
   screencast: 
   readings:
@@ -225,7 +230,7 @@ schedule:
   
 - week: 14
   day: 5
-  lecture: "TBD"
+  lecture: "Docker"
   slides:
   screencast: 
   readings:
