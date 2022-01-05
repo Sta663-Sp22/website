@@ -14,10 +14,6 @@ schedule:
   notes:
 
 - week: 1
-  day: 1
-  lecture: "<i>No lab sessions (MLK Day)</i>"
-
-- week: 1
   day: 3
   lecture: "Python Basics"
   slides:
@@ -32,6 +28,10 @@ schedule:
   screencast: 
   readings:
   notes:
+
+- week: 2
+  day: 1
+  lecture: "<i>No lab sessions (MLK Day)</i>"
 
 - week: 2
   day: 3
