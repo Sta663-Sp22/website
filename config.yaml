@@ -15,7 +15,7 @@ menu:
   - name: Sakai
     pre: <i class="fas fa-chalkboard-teacher"></i>
     weight: 3
-    url: https://sakai.duke.edu/portal/site/25babfb7-86b8-4d58-8158-5f8d78e44dcd
+    url: https://sakai.duke.edu/portal/site/f7f5a63a-12dd-45a3-9193-6cfb1106465b
   - name: Github
     pre: <i class='fa fa-github fa-fw'></i>
     weight: 6

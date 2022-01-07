@@ -13,6 +13,16 @@ schedule:
   screencast: 
   notes: <a href="https://duke.zoom.us/j/92816967303">Zoom link</a> - Duke account req.
 
+
+- week: 1
+  day: 1
+  lecture: "<i>Optional</i> - Intro Jupyter & git"
+  slides:
+  screencast: 
+  readings:
+  notes: 
+
+
 - week: 1
   day: 3
   lecture: "Python Basics"
