@@ -22,7 +22,7 @@ schedule:
   readings: 
   - text: ssh config for GitHub
     link: https://github.com/DukeStatSci/github_auth_guide
-  notes: <a https://duke.zoom.us/j/94619725327">Zoom link</a> - Duke account req.
+  notes: <a href="https://duke.zoom.us/j/94619725327">Zoom link</a> - Duke account req.
 
 
 - week: 1
@@ -31,6 +31,8 @@ schedule:
   slides:
   screencast: 
   readings:
+  - text: Python Built-in Types
+    link: https://docs.python.org/3/library/stdtypes.html
   notes: 
 
 - week: 1
