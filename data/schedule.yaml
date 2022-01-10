@@ -22,7 +22,7 @@ schedule:
   readings: 
   - text: ssh config for GitHub
     link: https://github.com/DukeStatSci/github_auth_guide
-  notes: 
+  notes: <a https://duke.zoom.us/j/94619725327">Zoom link</a> - Duke account req.
 
 
 - week: 1
