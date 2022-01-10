@@ -19,7 +19,9 @@ schedule:
   lecture: "<i>Optional</i> - Intro Jupyter & git"
   slides:
   screencast: 
-  readings: <a href="https://github.com/DukeStatSci/github_auth_guide">ssh config for GitHub</a>
+  readings: 
+  - text: ssh config for GitHub
+    link: https://github.com/DukeStatSci/github_auth_guide
   notes: 
 
 
