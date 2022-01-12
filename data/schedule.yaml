@@ -29,7 +29,7 @@ schedule:
   day: 3
   lecture: "Python Basics<br/>Types & Sequences"
   slides: Lec02
-  screencast: 
+  screencast: https://youtu.be/fNFhaQtBIUM
   readings:
   - text: Python Built-in Types
     link: https://docs.python.org/3/library/stdtypes.html
