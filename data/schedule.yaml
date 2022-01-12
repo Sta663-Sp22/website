@@ -10,7 +10,7 @@ schedule:
   day: 5
   lecture: "Welcome & Syllabus"
   slides: Lec01
-  screencast: 
+  screencast: https://youtu.be/wvXFunvMuUI
   notes: <a href="https://duke.zoom.us/j/92816967303">Zoom link</a> - Duke account req.
 
 
@@ -18,7 +18,7 @@ schedule:
   day: 1
   lecture: "<i>Optional</i> - Intro Jupyter & git"
   slides:
-  screencast: 
+  screencast: https://youtu.be/JES2jaCA2OY
   readings: 
   - text: ssh config for GitHub
     link: https://github.com/DukeStatSci/github_auth_guide
@@ -28,11 +28,13 @@ schedule:
 - week: 1
   day: 3
   lecture: "Python Basics"
-  slides:
+  slides: Lec02
   screencast: 
   readings:
   - text: Python Built-in Types
     link: https://docs.python.org/3/library/stdtypes.html
+  - text: An Informal Introduction to Python
+    link: https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator
   notes: 
 
 - week: 1
