@@ -27,7 +27,7 @@ schedule:
 
 - week: 1
   day: 3
-  lecture: "Python Basics"
+  lecture: "Python Basics<br/>Types & Sequences"
   slides: Lec02
   screencast: 
   readings:
