@@ -27,7 +27,7 @@ schedule:
 
 - week: 1
   day: 3
-  lecture: "Python Basics<br/>Types & Sequences"
+  lecture: "Basic types & sequence types"
   slides: Lec02
   screencast: https://youtu.be/fNFhaQtBIUM
   readings:
@@ -39,8 +39,8 @@ schedule:
 
 - week: 1
   day: 5
-  lecture: "Python Basics"
-  slides:
+  lecture: "Control flow, list comprehensions<br/>and functions"
+  slides: Lec03
   screencast: 
   readings:
   notes:
