@@ -55,10 +55,14 @@ schedule:
 
 - week: 2
   day: 3
-  lecture: "Python data structures"
-  slides:
+  lecture: "Data structures"
+  slides: Lec04
   screencast: 
   readings:
+  - text: Sets and Dicts
+    link: https://docs.python.org/3/tutorial/datastructures.html#sets
+  - text: Time complexity
+    link: https://wiki.python.org/moin/TimeComplexity
   notes:
   
 - week: 2
