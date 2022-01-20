@@ -57,7 +57,7 @@ schedule:
   day: 3
   lecture: "Data structures"
   slides: Lec04
-  screencast: 
+  screencast: https://youtu.be/6ptS276YrhE
   readings:
   - text: Sets and Dicts
     link: https://docs.python.org/3/tutorial/datastructures.html#sets
