@@ -67,18 +67,26 @@ schedule:
   
 - week: 2
   day: 5
-  lecture: "numpy"
+  lecture: "NumPy Basics"
   slides:
   screencast: 
   readings:
+  - text: NumPy quickstart
+    link: https://numpy.org/doc/stable/user/quickstart.html
+  - text: NumPy API Reference
+    link: https://numpy.org/doc/stable/reference/index.html
   notes: 
 
 - week: 3
   day: 3
-  lecture: "numpy"
+  lecture: "Broadcasting and Advanced indexing"
   slides:
   screencast: 
   readings:
+  - text: Broadcasting
+    link: https://numpy.org/doc/stable/user/basics.broadcasting.html
+  - text Advanced indexing
+    link: https://numpy.org/doc/stable/user/basics.indexing.html#advanced-indexing
   notes: 
 
 - week: 3
