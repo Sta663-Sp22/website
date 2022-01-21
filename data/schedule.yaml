@@ -85,7 +85,7 @@ schedule:
   readings:
   - text: Broadcasting
     link: https://numpy.org/doc/stable/user/basics.broadcasting.html
-  - text Advanced indexing
+  - text: Advanced indexing
     link: https://numpy.org/doc/stable/user/basics.indexing.html#advanced-indexing
   notes: 
 
