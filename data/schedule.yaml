@@ -69,7 +69,7 @@ schedule:
   day: 5
   lecture: "NumPy Basics"
   slides: Lec05
-  screencast: 
+  screencast: https://youtu.be/aZpycXeim4I
   readings:
   - text: NumPy quickstart
     link: https://numpy.org/doc/stable/user/quickstart.html
