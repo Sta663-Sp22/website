@@ -68,7 +68,7 @@ schedule:
 - week: 2
   day: 5
   lecture: "NumPy Basics"
-  slides:
+  slides: Lec05
   screencast: 
   readings:
   - text: NumPy quickstart
