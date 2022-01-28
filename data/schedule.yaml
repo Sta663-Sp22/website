@@ -91,11 +91,13 @@ schedule:
 
 - week: 3
   day: 5
-  lecture: "scipy"
-  slides:
+  lecture: "SciPy"
+  slides: Lec07
   screencast: 
   notes:
   readings:
+  - text: SciPy User Guide
+    link: https://scipy.github.io/devdocs/tutorial/index.html
   notes: 
 
 - week: 4
