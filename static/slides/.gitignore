@@ -3,6 +3,5 @@ prev_uoe/*
 .Rhistory
 *.pdf
 *_cache/
-*_files/
 *.sqlite
 *.icloud
