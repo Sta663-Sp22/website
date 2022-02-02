@@ -102,10 +102,12 @@ schedule:
 
 - week: 4
   day: 3
-  lecture: "pandas"
-  slides:
+  lecture: "pandas basics"
+  slides: Lec08
   screencast: 
   readings:
+  - text: Python for Data Analysis (Early Release)
+    link: https://wesmckinney.com/book/pandas-basics.html
   notes:
 
 - week: 4
