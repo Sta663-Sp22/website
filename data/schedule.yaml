@@ -104,7 +104,7 @@ schedule:
   day: 3
   lecture: "pandas basics"
   slides: Lec08
-  screencast: 
+  screencast: https://youtu.be/CYUULF8aVRM
   readings:
   - text: Python for Data Analysis (Early Release)
     link: https://wesmckinney.com/book/pandas-basics.html
