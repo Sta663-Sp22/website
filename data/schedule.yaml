@@ -112,10 +112,14 @@ schedule:
 
 - week: 4
   day: 5
-  lecture: "pandas"
-  slides:
+  lecture: "more pandas"
+  slides: Lec09
   screencast: 
   readings:
+  - text: Reshaping
+    link: https://pandas.pydata.org/docs/user_guide/reshaping.html
+  - text: Group By
+    link: https://pandas.pydata.org/docs/user_guide/groupby.html
   notes: 
 
 - week: 5
