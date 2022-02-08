@@ -114,7 +114,7 @@ schedule:
   day: 5
   lecture: "more pandas"
   slides: Lec09
-  screencast: 
+  screencast: https://youtu.be/7OcktmnLC1Y
   readings:
   - text: Reshaping
     link: https://pandas.pydata.org/docs/user_guide/reshaping.html
