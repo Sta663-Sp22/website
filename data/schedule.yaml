@@ -124,18 +124,27 @@ schedule:
 
 - week: 5
   day: 3
-  lecture: "Visualization"
-  slides:
+  lecture: "Visualization - pyplot & pandas"
+  slides: Lec10
   screencast: 
   readings:
+  - text: matplotlib tutorials
+    link: https://matplotlib.org/stable/tutorials/index
+  - text: pandas chart visualization
+    link: https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
+    
   notes: 
 
 - week: 5
   day: 5
-  lecture: "Visualization"
+  lecture: "Visualization - seaborn"
   slides:
   screencast: 
   readings:
+  - text: seaborn user guide
+    link: https://seaborn.pydata.org/tutorial.html
+  - text: plotnine
+    link: https://plotnine.readthedocs.io/en/stable/
   notes:
 
 - week: 6
