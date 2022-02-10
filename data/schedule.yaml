@@ -126,7 +126,7 @@ schedule:
   day: 3
   lecture: "Visualization - pyplot & pandas"
   slides: Lec10
-  screencast: 
+  screencast: https://youtu.be/Bu2HYPvPYVw
   readings:
   - text: matplotlib tutorials
     link: https://matplotlib.org/stable/tutorials/index
