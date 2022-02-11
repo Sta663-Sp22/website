@@ -138,7 +138,7 @@ schedule:
 - week: 5
   day: 5
   lecture: "Visualization - seaborn"
-  slides:
+  slides: Lec11
   screencast: 
   readings:
   - text: seaborn user guide
