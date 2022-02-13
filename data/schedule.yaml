@@ -139,7 +139,7 @@ schedule:
   day: 5
   lecture: "Visualization - seaborn"
   slides: Lec11
-  screencast: 
+  screencast: https://youtu.be/kYhs8oegYuE
   readings:
   - text: seaborn user guide
     link: https://seaborn.pydata.org/tutorial.html
