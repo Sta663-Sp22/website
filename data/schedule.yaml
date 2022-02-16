@@ -150,9 +150,11 @@ schedule:
 - week: 6
   day: 3
   lecture: "Numerical optimization"
-  slides:
+  slides: Lec12
   screencast: 
   readings:
+  - text: scipy optimization lecture
+    link: https://scipy-lectures.org/advanced/mathematical_optimization/index.html
   notes: 
 
 - week: 6
