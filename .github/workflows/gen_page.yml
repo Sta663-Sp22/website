@@ -48,7 +48,7 @@ jobs:
 
       - name: Sync changes
         run: |
-          rsync --recursive --delete --exclude=".*" docs/ sta663-sp22.github.io/
+          rsync --recursive --delete --exclude=".DS_Store" docs/ sta663-sp22.github.io/
 
       - name: Commit and push changes
         run: |
