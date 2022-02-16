@@ -27,7 +27,6 @@ jobs:
       - name: Build Site
         run: |
           make all
-          touch docs/.nojekyll
       
       - name: Clean up
         run: |
@@ -48,14 +47,14 @@ jobs:
 
       - name: Sync changes
         run: |
-          rsync --recursive --delete --exclude=".DS_Store" docs/ sta663-sp22.github.io/
+          rsync --recursive --delete --exclude=".*" docs/ sta663-sp22.github.io/
+          touch sta663-sp22.github.io/.nojekyll
 
       - name: Commit and push changes
         run: |
           cd sta663-sp22.github.io/
-          #git status
-          git add .
-          git commit -m "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
+          git status
+          git commit -am "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
           git status
           git push
           
