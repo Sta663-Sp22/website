@@ -27,6 +27,7 @@ jobs:
       - name: Build Site
         run: |
           make all
+          touch docs/.nojekyll
       
       - name: Clean up
         run: |
