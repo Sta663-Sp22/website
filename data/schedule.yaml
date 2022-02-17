@@ -151,7 +151,7 @@ schedule:
   day: 3
   lecture: "Numerical optimization"
   slides: Lec12
-  screencast: 
+  screencast: https://youtu.be/DmZkmYEfDMo
   readings:
   - text: scipy optimization lecture
     link: https://scipy-lectures.org/advanced/mathematical_optimization/index.html
