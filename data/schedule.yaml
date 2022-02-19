@@ -161,7 +161,7 @@ schedule:
   day: 5
   lecture: "Numerical optimization - benchmarks"
   slides: Lec13
-  screencast: 
+  screencast: https://youtu.be/cF1Cpa4HxHc
   readings:
   - text: scipy optimization lecture examples
     link: https://github.com/scipy-lectures/scipy-lecture-notes/tree/master/advanced/mathematical_optimization/examples
