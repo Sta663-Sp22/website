@@ -78,6 +78,7 @@ local({
 
 Are a tool for selectively applying transformer(s) to the columns of an array or DataFrame, they function in a way that is similar to a pipeline and similarly have a helper function `make_column_transformer()`.
 
+.small[
 
 ```python
 from sklearn.compose import make_column_transformer
@@ -86,9 +87,22 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 ct = make_column_transformer(
   (StandardScaler(), ["volume"]),
   (OneHotEncoder(), ["cover"]),
+).fit(
+  books
 )
+```
 
-ct.fit_transform(books)
+
+```python
+ct.get_feature_names_out()
+```
+
+```
+## array(['standardscaler__volume', 'onehotencoder__cover_hb', 'onehotencoder__cover_pb'], dtype=object)
+```
+
+```python
+ct.transform(books)
 ```
 
 ```
@@ -108,14 +122,7 @@ ct.fit_transform(books)
 ##        [-0.76218,  0.     ,  1.     ],
 ##        [ 0.57478,  0.     ,  1.     ]])
 ```
-
-```python
-ct.get_feature_names_out()
-```
-
-```
-## array(['standardscaler__volume', 'onehotencoder__cover_hb', 'onehotencoder__cover_pb'], dtype=object)
-```
+]
 
 ---
 
@@ -130,9 +137,22 @@ ct = make_column_transformer(
   (StandardScaler(), ["volume"]),
   (OneHotEncoder(), ["cover"]),
   remainder = "passthrough"
+).fit(
+  books
 )
+```
 
-ct.fit_transform(books)
+
+```python
+ct.get_feature_names_out()
+```
+
+```
+## array(['standardscaler__volume', 'onehotencoder__cover_hb', 'onehotencoder__cover_pb', 'remainder__weight'], dtype=object)
+```
+
+```python
+ct.transform(books)
 ```
 
 ```
@@ -151,14 +171,6 @@ ct.fit_transform(books)
 ##        [   0.50169,    0.     ,    1.     ,  950.     ],
 ##        [  -0.76218,    0.     ,    1.     ,  425.     ],
 ##        [   0.57478,    0.     ,    1.     ,  725.     ]])
-```
-
-```python
-ct.get_feature_names_out()
-```
-
-```
-## array(['standardscaler__volume', 'onehotencoder__cover_hb', 'onehotencoder__cover_pb', 'remainder__weight'], dtype=object)
 ```
 ]
 
@@ -322,7 +334,10 @@ X, y = d.drop(["y"], axis=1), d.y
 
 rg = Ridge(fit_intercept=False, alpha=10).fit(X, y)
 lm = LinearRegression(fit_intercept=False).fit(X, y)
+```
 
+
+```python
 rg.coef_
 ```
 
@@ -357,7 +372,7 @@ mean_squared_error(y, lm.predict(X))
 ## 0.009872435924102045
 ```
 
-.footnote[Generally for a Ridge (or Lasso) model it is important to scale the features before fitting - in this case this is not necessary as `\(x_1,\ldots,x4\)` all have mean of ~0 and std dev of ~1 ]
+.footnote[Generally for a Ridge (or Lasso) model it is important to scale the features before fitting - in this case this is not necessary as `\(x\_1,\ldots,x\_4\)` all have mean of ~0 and std dev of ~1 ]
 
 ---
 
@@ -525,7 +540,7 @@ g = sns.relplot(x="alpha", y="value", hue="variable", data = pd.melt(res, id_var
 g.set(xscale="log")
 ```
 
-&lt;img src="Lec15_files/figure-html/unnamed-chunk-16-1.png" width="66%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lec15_files/figure-html/unnamed-chunk-19-1.png" width="66%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -737,7 +752,7 @@ g = sns.relplot(x="alpha", y="value", hue="variable", data=res.melt(id_vars=["al
 g.set(xscale="log")
 ```
 
-&lt;img src="Lec15_files/figure-html/unnamed-chunk-24-3.png" width="66%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lec15_files/figure-html/unnamed-chunk-27-3.png" width="66%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -767,19 +782,24 @@ res.iloc[ i, : ]
 
 ---
 
-## Aside - Referencing metrics 
+## Aside - Available metrics 
 
 For most of the cross validation functions we pass in a string instead of a scoring function from the metrics submodule - if you are interested in seeing the names of the possible metrics, these are available via the `sklearn.metrics.SCORERS` dictionary,
 
 
 ```python
-sorted(
+np.array( sorted(
   sklearn.metrics.SCORERS.keys()
-)
+) )
 ```
 
 ```
-## ['accuracy', 'adjusted_mutual_info_score', 'adjusted_rand_score', 'average_precision', 'balanced_accuracy', 'completeness_score', 'explained_variance', 'f1', 'f1_macro', 'f1_micro', 'f1_samples', 'f1_weighted', 'fowlkes_mallows_score', 'homogeneity_score', 'jaccard', 'jaccard_macro', 'jaccard_micro', 'jaccard_samples', 'jaccard_weighted', 'max_error', 'mutual_info_score', 'neg_brier_score', 'neg_log_loss', 'neg_mean_absolute_error', 'neg_mean_absolute_percentage_error', 'neg_mean_gamma_deviance', 'neg_mean_poisson_deviance', 'neg_mean_squared_error', 'neg_mean_squared_log_error', 'neg_median_absolute_error', 'neg_root_mean_squared_error', 'normalized_mutual_info_score', 'precision', 'precision_macro', 'precision_micro', 'precision_samples', 'precision_weighted', 'r2', 'rand_score', 'recall', 'recall_macro', 'recall_micro', 'recall_samples', 'recall_weighted', 'roc_auc', 'roc_auc_ovo', 'roc_auc_ovo_weighted', 'roc_auc_ovr', 'roc_auc_ovr_weighted', 'top_k_accuracy', 'v_measure_score']
+## array(['accuracy', 'adjusted_mutual_info_score', 'adjusted_rand_score', 'average_precision', 'balanced_accuracy', 'completeness_score', 'explained_variance', 'f1', 'f1_macro', 'f1_micro',
+##        'f1_samples', 'f1_weighted', 'fowlkes_mallows_score', 'homogeneity_score', 'jaccard', 'jaccard_macro', 'jaccard_micro', 'jaccard_samples', 'jaccard_weighted', 'max_error', 'mutual_info_score',
+##        'neg_brier_score', 'neg_log_loss', 'neg_mean_absolute_error', 'neg_mean_absolute_percentage_error', 'neg_mean_gamma_deviance', 'neg_mean_poisson_deviance', 'neg_mean_squared_error',
+##        'neg_mean_squared_log_error', 'neg_median_absolute_error', 'neg_root_mean_squared_error', 'normalized_mutual_info_score', 'precision', 'precision_macro', 'precision_micro',
+##        'precision_samples', 'precision_weighted', 'r2', 'rand_score', 'recall', 'recall_macro', 'recall_micro', 'recall_samples', 'recall_weighted', 'roc_auc', 'roc_auc_ovo', 'roc_auc_ovo_weighted',
+##        'roc_auc_ovr', 'roc_auc_ovr_weighted', 'top_k_accuracy', 'v_measure_score'], dtype='&lt;U34')
 ```
 
 ---
@@ -934,8 +954,8 @@ gs.cv_results_["mean_fit_time"]
 ```
 
 ```
-## array([0.0007 , 0.00062, 0.00061, 0.00061, 0.00066, 0.00066, 0.00063, 0.00068, 0.00065, 0.00097, 0.00064, 0.00063, 0.00062, 0.00072, 0.00065, 0.00065, 0.00063, 0.00062, 0.00061, 0.00062, 0.00061,
-##        0.00063, 0.00063, 0.00062, 0.00062, 0.00065, 0.00065, 0.00062, 0.00062, 0.00061])
+## array([0.00086, 0.00076, 0.00075, 0.00075, 0.00072, 0.00063, 0.00062, 0.00063, 0.00063, 0.00066, 0.00065, 0.00062, 0.00062, 0.00062, 0.00062, 0.00061, 0.00061, 0.00061, 0.00061, 0.00061, 0.0006 ,
+##        0.00061, 0.00064, 0.00064, 0.00061, 0.0006 , 0.0006 , 0.00061, 0.0006 , 0.00061])
 ```
 
 ---
@@ -965,7 +985,7 @@ plt.show()
 ] ]
 
 .pull-right[
-&lt;img src="Lec15_files/figure-html/unnamed-chunk-32-5.png" width="672" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lec15_files/figure-html/unnamed-chunk-35-5.png" width="672" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -1020,7 +1040,7 @@ g = sns.relplot(
 g.set(xscale="log")
 ```
 
-&lt;img src="Lec15_files/figure-html/unnamed-chunk-34-7.png" width="66%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lec15_files/figure-html/unnamed-chunk-37-7.png" width="66%" style="display: block; margin: auto;" /&gt;
 
 ---
 

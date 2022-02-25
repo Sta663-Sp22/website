@@ -70,6 +70,7 @@ local({
 
 Are a tool for selectively applying transformer(s) to the columns of an array or DataFrame, they function in a way that is similar to a pipeline and similarly have a helper function `make_column_transformer()`.
 
+.small[
 ```{python}
 from sklearn.compose import make_column_transformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
@@ -77,11 +78,16 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 ct = make_column_transformer(
   (StandardScaler(), ["volume"]),
   (OneHotEncoder(), ["cover"]),
+).fit(
+  books
 )
-
-ct.fit_transform(books)
-ct.get_feature_names_out()
 ```
+
+```{python}
+ct.get_feature_names_out()
+ct.transform(books)
+```
+]
 
 ---
 
@@ -95,10 +101,14 @@ ct = make_column_transformer(
   (StandardScaler(), ["volume"]),
   (OneHotEncoder(), ["cover"]),
   remainder = "passthrough"
+).fit(
+  books
 )
+```
 
-ct.fit_transform(books)
+```{python}
 ct.get_feature_names_out()
+ct.transform(books)
 ```
 ]
 
@@ -186,7 +196,9 @@ X, y = d.drop(["y"], axis=1), d.y
 
 rg = Ridge(fit_intercept=False, alpha=10).fit(X, y)
 lm = LinearRegression(fit_intercept=False).fit(X, y)
+```
 
+```{python}
 rg.coef_
 lm.coef_
 ```
@@ -198,7 +210,7 @@ mean_squared_error(y, rg.predict(X))
 mean_squared_error(y, lm.predict(X))
 ```
 
-.footnote[Generally for a Ridge (or Lasso) model it is important to scale the features before fitting - in this case this is not necessary as $x_1,\ldots,x4$ all have mean of ~0 and std dev of ~1 ]
+.footnote[Generally for a Ridge (or Lasso) model it is important to scale the features before fitting - in this case this is not necessary as $x\_1,\ldots,x\_4$ all have mean of ~0 and std dev of ~1 ]
 
 ---
 
@@ -414,14 +426,14 @@ res.iloc[ i, : ]
 
 ---
 
-## Aside - Referencing metrics 
+## Aside - Available metrics 
 
 For most of the cross validation functions we pass in a string instead of a scoring function from the metrics submodule - if you are interested in seeing the names of the possible metrics, these are available via the `sklearn.metrics.SCORERS` dictionary,
 
 ```{python}
-sorted(
+np.array( sorted(
   sklearn.metrics.SCORERS.keys()
-)
+) )
 ```
 
 ---
