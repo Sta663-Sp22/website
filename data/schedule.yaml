@@ -183,8 +183,8 @@ schedule:
 - week: 7
   day: 5
   lecture: "scikit-learn - cross validation"
-  screencast: Lec15
-  slides:
+  screencast:
+  slides: Lec15
   readings:
   notes: 
 
