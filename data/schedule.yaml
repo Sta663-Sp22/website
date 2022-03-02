@@ -190,8 +190,8 @@ schedule:
 
 - week: 8
   day: 3
-  lecture: "scikit-learn - customization"
-  slides:
+  lecture: "scikit-learn - classification"
+  slides: Lec16
   screencast: 
   readings:
   notes: 
