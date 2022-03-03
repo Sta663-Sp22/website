@@ -192,7 +192,7 @@ schedule:
   day: 3
   lecture: "scikit-learn - classification"
   slides: Lec16
-  screencast: 
+  screencast: https://youtu.be/dYeZKaOss2o
   readings:
   notes: 
 
