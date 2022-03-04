@@ -198,8 +198,13 @@ schedule:
 
 - week: 8
   day: 5
-  lecture: "sklearn - other"
-
+  lecture: "Classes and custom transformers"
+  slides: Lec17
+  screencast:
+  readings:
+  - text: Python tutorial - Classes
+    link: https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes
+  
 - week: 9
   day: 2
   lecture: "<i>No lab sessions (Spring Break)</i>"
@@ -215,7 +220,7 @@ schedule:
 
 - week: 10
   day: 3
-  lecture: "statsmodels"
+  lecture: "statsmodels + patsy"
   slides:
   screencast: 
   readings:
