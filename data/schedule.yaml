@@ -204,6 +204,7 @@ schedule:
   readings:
   - text: Python tutorial - Classes
     link: https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes
+  notes: Lecture recording available via panopto on Sakai
   
 - week: 9
   day: 2
@@ -221,9 +222,13 @@ schedule:
 - week: 10
   day: 3
   lecture: "statsmodels + patsy"
-  slides:
+  slides: Lec18
   screencast: 
   readings:
+  - text: patsy docs
+    link: https://patsy.readthedocs.io/en/latest/
+  - text: statsmodels user guide
+    link: https://www.statsmodels.org/stable/user-guide.html
   notes: 
   
 
