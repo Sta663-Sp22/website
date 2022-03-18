@@ -234,15 +234,19 @@ schedule:
 
 - week: 10
   day: 5
-  lecture: "Probabilistic programming"
-  slides:
+  lecture: "PyMC3 + ArviZ"
+  slides: Lec19
   screencast: 
+  - text: PyMC3 docs
+    link: https://docs.pymc.io/en/v3/
+  - text: ArviZ docs
+    link: https://arviz-devs.github.io/arviz/index.html
   readings:
   
 
 - week: 11
   day: 3
-  lecture: "Probabilistic programming"
+  lecture: "More PyMC3"
   slides:
   screencast: 
   readings:
@@ -250,7 +254,7 @@ schedule:
 
 - week: 11
   day: 5
-  lecture: "Probabilistic programming"
+  lecture: "Arrow"
   screencast: 
   readings: ""
   notes: 
