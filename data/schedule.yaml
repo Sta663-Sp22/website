@@ -236,7 +236,7 @@ schedule:
   day: 5
   lecture: "PyMC3 + ArviZ"
   slides: Lec19
-  screencast: 
+  screencast: https://youtu.be/BL0fXxP7Fuo
   readings:
   - text: PyMC3 docs
     link: https://docs.pymc.io/en/v3/
