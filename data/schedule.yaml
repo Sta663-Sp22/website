@@ -246,7 +246,7 @@ schedule:
 - week: 11
   day: 3
   lecture: "More PyMC3"
-  slides:
+  slides: Lec20
   screencast: 
   readings:
   notes: 
