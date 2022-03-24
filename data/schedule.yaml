@@ -247,7 +247,7 @@ schedule:
   day: 3
   lecture: "More PyMC3"
   slides: Lec20
-  screencast: 
+  screencast: https://youtu.be/-v9OVoPpZkk
   readings:
   notes: 
 
