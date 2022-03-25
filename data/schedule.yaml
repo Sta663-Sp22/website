@@ -253,9 +253,13 @@ schedule:
 
 - week: 11
   day: 5
-  lecture: "Arrow"
-  screencast: 
-  readings: ""
+  lecture: "Apache Arrow"
+  screencast: Lec21
+  readings:
+  - text: PyArrow documentation
+    link: https://arrow.apache.org/docs/python/
+  - text: PyArrow Cookbook
+    link: https://arrow.apache.org/cookbook/py/
   notes: 
 
 - week: 12
