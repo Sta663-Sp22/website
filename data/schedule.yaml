@@ -255,7 +255,7 @@ schedule:
   day: 5
   lecture: "Apache Arrow"
   slides:  Lec21
-  screencast:
+  screencast: https://youtu.be/qxv-_wR_KOI
   readings:
   - text: PyArrow documentation
     link: https://arrow.apache.org/docs/python/
