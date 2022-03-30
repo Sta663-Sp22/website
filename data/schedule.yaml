@@ -265,8 +265,8 @@ schedule:
 
 - week: 12
   day: 3
-  lecture: "pytorch"
-  slides:
+  lecture: "pytorch - Intro"
+  slides: Lec22
   screencast: 
   readings:
   notes: 
