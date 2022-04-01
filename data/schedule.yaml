@@ -269,15 +269,23 @@ schedule:
   slides: Lec22
   screencast: https://youtu.be/59Vsqf48md0
   readings:
+  - text: Intro to PyTorch Tensors
+    link: https://pytorch.org/tutorials/beginner/introyt/tensors_deeper_tutorial.html
+  - text: Fundamentals of AutoGrad
+    link: https://pytorch.org/tutorials/beginner/introyt/autogradyt_tutorial.html
   notes: 
 
 
 - week: 12
   day: 5
-  lecture: "pytorch"
-  slides:
+  lecture: "pytorch - nn"
+  slides: Lec23
   screencast: 
   readings:
+  - text: Feedforward Neural Network with PyTorch
+    link: https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_feedforward_neuralnetwork/
+  - text: Convolutional Neural Network with PyTorch
+    link: https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_convolutional_neuralnetwork/
   notes: 
   
 - week: 13
