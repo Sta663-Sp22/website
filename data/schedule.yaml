@@ -291,8 +291,8 @@ schedule:
 - week: 13
   day: 3
   lecture: "pytorch - gpu"
-  screencast: Lec24
-  slides:
+  screencast:
+  slides: Lec24
   readings:
   notes: 
 
