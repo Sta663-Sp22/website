@@ -290,8 +290,8 @@ schedule:
   
 - week: 13
   day: 3
-  lecture: "pytorch"
-  screencast: 
+  lecture: "pytorch - GPU"
+  screencast: https://youtu.be/vaEP9Y6B1U8
   slides:
   readings:
   notes: 
