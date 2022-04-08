@@ -298,7 +298,7 @@ schedule:
 
 - week: 13
   day: 5
-  lecture: "pytorch"
+  lecture: "Linux system administration"
   screencast: 
   slides:
   notes: 
@@ -313,7 +313,7 @@ schedule:
   
 - week: 14
   day: 5
-  lecture: "Docker"
+  lecture: "Docker / Singularity"
   slides:
   screencast: 
   readings:
