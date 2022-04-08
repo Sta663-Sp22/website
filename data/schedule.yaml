@@ -300,7 +300,7 @@ schedule:
   day: 5
   lecture: "Linux system administration"
   screencast: 
-  slides:
+  slides: Lec25
   notes: 
 
 - week: 14
