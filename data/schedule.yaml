@@ -299,24 +299,17 @@ schedule:
 - week: 13
   day: 5
   lecture: "Linux system administration"
-  screencast: 
+  screencast: https://youtu.be/fuerGaWs6FQ
   slides: Lec25
   notes: 
 
 - week: 14
   day: 3
   lecture: "Docker"
-  slides:
+  slides: Lec26
   screencast: 
   readings:
   notes: 
-  
-- week: 14
-  day: 5
-  lecture: "Docker / Singularity"
-  slides:
-  screencast: 
-  readings:
-  notes: 
+
   
 
