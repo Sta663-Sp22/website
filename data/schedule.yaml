@@ -311,5 +311,8 @@ schedule:
   readings:
   notes: 
 
-  
+- week: 16
+  day: 6
+  lecture: "<i>Final projects due</i>"
+
 
